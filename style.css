@@ -1,29 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
   color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px 40px;
+}
+
+.name-tag {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #4b0082;
+  margin: 0;
+}
+
+main {
   max-width: 700px;
-  margin: 60px auto;
-  padding: 0 20px;
-  text-align: center;
+  margin: 20px auto;
+  padding: 0 40px;
+  text-align: left;
 }
 
 h1 {
   color: #4b0082;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.6;
+  text-align: left;
 }
+
 section#about {
   margin-top: 40px;
-  text-align: left;
 }
 
 section#about h2 {
   color: #4b0082;
   border-bottom: 2px solid #4b0082;
   padding-bottom: 5px;
+  text-align: left;
 }
