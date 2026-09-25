@@ -28,11 +28,12 @@ main {
   text-align: left;
 }
 
-h1 {
+h1
+ {
   color: #4b0082;
   font-size: 2.2em;
+  text-align: left;
 }
-
 p {
   font-size: 1.1em;
   line-height: 1.6;
