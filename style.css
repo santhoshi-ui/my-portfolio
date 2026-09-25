@@ -17,3 +17,13 @@ p {
   font-size: 1.2em;
   line-height: 1.6;
 }
+section#about {
+  margin-top: 40px;
+  text-align: left;
+}
+
+section#about h2 {
+  color: #4b0082;
+  border-bottom: 2px solid #4b0082;
+  padding-bottom: 5px;
+}
